@@ -1,0 +1,21 @@
+.splash__container--main {
+    padding: 20px;
+}
+
+.splash__container--main h1 {
+    text-shadow: 2px 2px 4px black;
+    transform: scale(2);
+}
+
+@media only screen and (max-width: 800px) {
+    .splash__container--main {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin-left: 35px;
+    }
+
+    .splash__container--main h1 {
+        display: none;
+    }
+}

@@ -1,0 +1,126 @@
+.home__container--main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+.home__container--OAuth {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    transform: scale(0.65);
+    position: absolute;
+    top: -10px;
+    right: 20px;
+}
+
+.home__container--profile {
+    /* position: absolute;
+    top: 20px;
+    right: 20px; */
+    background-color:rgba(170, 137, 97, 0.5);
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px black;
+}
+
+.home__container--name {
+    font-size: xx-large;
+}
+
+.home__container--email {
+    font-size: small;
+}
+
+.home__image--profile {
+    border-radius: 50%;
+}
+
+.home__button--public {
+    height: 41px;
+    width: 120px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px black;
+    background-color: rgb(212, 212, 157);
+    color: white;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: black;
+    font-size: x-large;
+    font-weight: 900;
+    text-shadow: 1px 1px 2px black;
+}
+
+.home__button--public:focus {
+    background-color: rgb(230, 230, 38);
+}
+
+.home__button--public:hover {
+    box-shadow: 4px 4px 8px black;
+    transition: box-shadow 0.25s;
+}
+
+.home__container--buttons {
+    position: relative;
+    top: 75px;
+    right: -7%;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.home__container--map {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    top: 40%;
+    height: 50vmax;
+    width: 90vmax;
+}
+
+.home__infoWindow--name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    height: max-content;
+    width: max-content;
+}
+
+@media only screen and (max-width: 800px) {
+    .home__container--profile {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin-top: -25px;
+
+    }
+    .home__container--map {
+        position: absolute;
+        top: 60%;
+        left: 20px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        border-radius: 15px;
+    }
+
+    .home__container--buttons {
+        flex-direction: column;
+        margin-top: 50px;
+        position: relative;
+        right: 85px;
+        padding: 10px;
+    }
+
+    .home__button--public {
+        margin: 7px;
+    }
+}
