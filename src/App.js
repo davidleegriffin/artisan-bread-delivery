@@ -1,5 +1,5 @@
 import { Route, Switch, BrowserRouter } from "react-router-dom";
-import SplashPage from './components/SplashPage';
+import NavHeader from './components/NavHeader';
 import './App.css';
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Switch>
-          <Route exact path="/" component={SplashPage} />
+          <Route exact path="/" component={NavHeader} />
           {/* <Route exact path="/detail" component={Detail} /> */}
         </Switch>
       </BrowserRouter>

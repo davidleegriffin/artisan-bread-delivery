@@ -1,8 +1,8 @@
 import React from 'react';
 import Login from './Login';
-import './SplashPage.css';
+import './NavHeader.css';
 
-function SplashPage() {
+function NavHeader() {
 
     return (
         <div className="splash__container--main">
@@ -12,4 +12,4 @@ function SplashPage() {
     );
 }
 
-export default SplashPage;
+export default NavHeader;
