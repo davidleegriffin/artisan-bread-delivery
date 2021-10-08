@@ -1,0 +1,6 @@
+# "authorization": "Basic Zm5BRVZCbGpfV0FBUVFvSGVUTzZ5SjBoUy1sNnZMeGRSMzBrWXhGcjphcnRpc2FuX2JyZWFkX2RlbGl2ZXJ5OmFkbWlu"
+
+configurationset:
+  - configuration:
+      name: fauna_config
+      Authorization: Basic Zm5BRVZCbGpfV0FBUVFvSGVUTzZ5SjBoUy1sNnZMeGRSMzBrWXhGcjphcnRpc2FuX2JyZWFkX2RlbGl2ZXJ5OmFkbWlu

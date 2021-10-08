@@ -1,0 +1,25 @@
+type User {
+    email: String!
+    familyName: String!
+    givenName: String!
+    id: String!
+    name: String!
+    photoUrl: String!
+}
+
+input UserInput {
+    email: String!
+    familyName: String!
+    givenName: String!
+    id: String!
+    name: String!
+    photoUrl: String!
+}
+
+type MutationUser {
+    createUser(data: UserInput!): User!
+}
+
+type QueryUser {
+    findUserByID(id: ID!): User
+}
